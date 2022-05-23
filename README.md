@@ -1,2 +1,2 @@
 # IMDB_Clone
-Chech here*https://elisenimdb.herokuapp.com/*
+Check here *https://elisenimdb.herokuapp.com/*
