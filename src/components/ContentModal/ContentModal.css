@@ -91,7 +91,13 @@
 }
 
 @media (min-width: 550px){
-  .AliceCarousel{
+  .ali_carousel{
+    width: 20%;
+    height: 20%;
+  }
+}
+@media (min-width: 700px){
+  .ali_carousel{
     width: 20%;
     height: 20%;
   }
