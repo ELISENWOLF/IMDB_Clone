@@ -12,24 +12,24 @@
 
 @media (min-width: 400px){
   .carouselItem__img{
-    width: 100%;
+    height: 100%;
   }
 }
 
 @media (min-width: 550px){
   .carouselItem__img{
-    width: 100%;
+    height: 100%;
   }
 }
 
 @media (min-width: 725px){
   .carouselItem__img{
-    width: 95%;
+    height: 95%;
   }
 }
 
 @media (min-width: 1048px){
   .carouselItem__img{
-    width: 80%;
+    height: 80%;
   }
 }
