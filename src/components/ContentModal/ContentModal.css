@@ -8,7 +8,7 @@
 .ContentModal__portrait {
   display: none;
   object-fit: contain;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .tagline {
@@ -75,7 +75,7 @@
   .ContentModal {
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 8px 0;
   }
   .ContentModal__about {
     width: 58%;
