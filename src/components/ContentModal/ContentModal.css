@@ -87,5 +87,6 @@
   }
   .ContentModal__description {
     font-size: 22px;
+    height: 40%;
   }
 }
