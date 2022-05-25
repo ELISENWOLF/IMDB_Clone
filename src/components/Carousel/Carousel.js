@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import AliceCarousel from "react-alice-carousel";
-import "../../react-alice-carousel/lib/alice-carousel.css";
+import "react-alice-carousel/lib/alice-carousel.css";
 import { img_300, noPicture } from "../../config/config";
 import "./Carousel.css";
 
@@ -27,12 +27,9 @@ const Gallery = ({ id, media_type }) => {
       items: 3,
     },
     512: {
-      items: 4,
+      items: 5,
     },
-    724: {
-      item: 5,
-    },
-    1048: {
+    1024: {
       items: 7,
     },
   };
