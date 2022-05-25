@@ -87,6 +87,12 @@
   }
   .ContentModal__description {
     font-size: 22px;
-    height: 40%;
+  }
+}
+
+@media (min-width: 550px){
+  .AliceCarousel{
+    width: 20%;
+    height: 20%;
   }
 }

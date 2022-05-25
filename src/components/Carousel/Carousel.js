@@ -29,10 +29,10 @@ const Gallery = ({ id, media_type }) => {
     512: {
       items: 4,
     },
-    700: {
+    724: {
       item: 5,
     },
-    1024: {
+    1048: {
       items: 7,
     },
   };
@@ -51,6 +51,7 @@ const Gallery = ({ id, media_type }) => {
 
   return (
     <AliceCarousel
+    className = "ali_carousel"
       mouseTracking
       infinite
       disableDotsControls
