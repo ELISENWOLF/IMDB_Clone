@@ -18,28 +18,28 @@
 
 @media (min-width: 406px) {
   .media {
-    width: 28%;
+    width: 26%;
   }
   .poster{
-    height: 53%;
+    height: 50%;
   }
 }
 
 @media (min-width: 512px) {
   .media {
-    width: 28%;
+    width: 30%;
   }
   .poster{
-    height: 64%;
+    height: 68%;
   }
 }
 
 @media (min-width: 724px) {
   .media {
-    width: 18%;
+    width: 22%;
   }
   .poster{
-    height: 60%;
+    height: 66%;
   }
 }
 
