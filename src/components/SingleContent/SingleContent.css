@@ -52,12 +52,12 @@
   }
 }
 
-@media (min-width: 1048px) {
+@media (min-width: 1024px) {
   .media {
     width: 16%;
   }
   .poster{
-    height: 65%;
+    height: 70%;
   }
 }
 
