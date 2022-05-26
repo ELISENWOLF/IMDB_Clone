@@ -89,16 +89,3 @@
     font-size: 22px;
   }
 }
-
-@media (min-width: 550px){
-  .alice_carousel{
-    width: 20%;
-    height: 20%;
-  }
-}
-@media (min-width: 700px){
-  .alice_carousel{
-    width: 20%;
-    height: 20%;
-  }
-}

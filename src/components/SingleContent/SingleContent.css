@@ -15,7 +15,26 @@
   background-color: white;
   color: black;
 }
-/* 
+
+.poster {
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+
 @media (min-width: 250px) {
   .media {
     width: 30%;
@@ -52,30 +71,11 @@
   }
 }
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .media {
     width: 16%;
   }
   .poster{
     height: 70%;
   }
-} */ */
-
-.poster {
-  border-radius: 10px;
-}
-
-.title {
-  width: 100%;
-  text-align: center;
-  font-size: 17px;
-  padding: 8px 0;
-}
-
-.subTitle {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 3px;
-  padding: 0 2px;
-  padding-bottom: 3px;
 }
