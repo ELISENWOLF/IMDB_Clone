@@ -43,7 +43,7 @@
   }
 }
 
-@media (min-width: 724px) {
+@media (min-width: 725px) {
   .media {
     width: 15%;
   }
@@ -52,17 +52,9 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .media {
-    width: 16%;
-  }
-  .poster{
-    height: 70%;
-  }
-}
-
 .poster {
   border-radius: 10px;
+  height: 63%;
 }
 
 .title {
