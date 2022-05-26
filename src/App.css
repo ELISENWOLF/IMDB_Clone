@@ -27,26 +27,8 @@
   color: white;
 }
 
-@media (min-width: 406px) {
+@media (max-width: 1000px) {
   .pageTitle {
-    font-size: 4vw;
-  }
-}
-
-@media (min-width: 512px) {
-  .pageTitle {
-    font-size: 3.5vw;
-  }
-}
-
-@media (min-width: 724px) {
-  .pageTitle {
-    font-size: 3vw;
-  }
-}
-
-@media (min-width: 1048px) {
-  .pageTitle {
-    font-size: 2.5vw;
+    font-size: 6.4vw;
   }
 }
