@@ -73,9 +73,9 @@
 
 @media (min-width: 1024px) {
   .media {
-    width: 16%;
+    width: 200px;
   }
   .poster{
-    height: 70%;
+    height: 280px;
   }
 }
