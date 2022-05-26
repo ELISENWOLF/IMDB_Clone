@@ -16,30 +16,39 @@
   color: black;
 }
 
-@media (min-width: 406px) {
+@media (min-width: 250px) {
   .media {
-    width: 26%;
+    width: 30%;
+  }
+  .poster{
+    height: 40%;
+  }
+}
+
+@media (min-width: 350px) {
+  .media {
+    width: 35%;
   }
   .poster{
     height: 50%;
   }
 }
 
-@media (min-width: 512px) {
+@media  (min-width: 406px){
   .media {
-    width: 30%;
+    width: 26%;
   }
   .poster{
-    height: 68%;
+    height: 43%;
   }
 }
 
 @media (min-width: 724px) {
   .media {
-    width: 22%;
+    width: 15%;
   }
   .poster{
-    height: 66%;
+    height: 56%;
   }
 }
 
