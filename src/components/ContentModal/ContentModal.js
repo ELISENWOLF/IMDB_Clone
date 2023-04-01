@@ -52,7 +52,6 @@ export default function TransitionsModal({ children, media_type, id }) {
     );
 
     setContent(data);
-    // console.log(data);
   };
 
   const fetchVideo = async () => {
@@ -60,14 +59,13 @@ export default function TransitionsModal({ children, media_type, id }) {
       `https://api.themoviedb.org/3/${media_type}/${id}/videos?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`
     );
 
-    setVideo(data.results[0]?.key);
+    setVideo(data.results.find((item) => item.name === 'Official Trailer')?.key);
   };
 
   useEffect(() => {
     fetchData();
     fetchVideo();
-    // eslint-disable-next-line
-  }, []);
+  });
 
   return (
     <>
